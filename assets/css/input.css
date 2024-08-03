@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* menu-tab */
+    .tab-menu .tab-menu-links a.active {
+        border-bottom: 2px solid orangered;
+        box-shadow: none;
+    }
+    .tab-menu .menu-tab > div {
+        display: none;
+    }
+    .tab-menu .menu-tab > div.active {
+        display: block;
+    }
+}
+
+    
